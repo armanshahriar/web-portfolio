@@ -1,6 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 
+}
+
+.top-banner {
+    background-image: url("../images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
 }
 
 .left-div {
@@ -9,9 +17,11 @@ body {
     margin-left: 5%;
     padding-left: 2%;
 }
-.left-div img{
+
+.left-div img {
     width: 100%;
 }
+
 .salam {
     color: #E86043;
     font-size: 40px;
