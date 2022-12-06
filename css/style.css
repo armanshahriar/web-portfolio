@@ -9,6 +9,17 @@ section {
     padding-bottom: 150px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+/* Top banner start */
 .top-banner {
     background-image: url("../images/top-banner.png");
     height: 500px;
@@ -43,12 +54,56 @@ section {
     color: white;
     font-weight: bold;
 }
-p{
-    color: dimgray;
-    padding-bottom: 10px;
-}
-.dream-area{
+
+/* Top banner end */
+/* Dream area start */
+.dream-area {
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+
+/* Dream area end */
+/* experiences section start */
+.experiences {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp {
+    text-align: center;
+    font-size: 40px;
+}
+
+#full {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, orange, yellow);
+    border-image-slice: 1;
+}
+
+.single-exp {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+}
+
+.orenge-highlight {
+    color: orange;
+}
+
+#full-2 {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, yellow);
+    border-image-slice: 1;
+}
+
+/* experiences section end */
+/* footer part start */
+footer p {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* footer part end */
